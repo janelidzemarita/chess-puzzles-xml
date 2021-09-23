@@ -3,12 +3,12 @@
 Chess is a famous table game. This exercise is about representing chess board states as Spring configurations.
 
 ## Details
-Consider each chess piece as a particular object, that implements [ChessPiece](src/main/java/com/epam/rd/autotasks/chesspuzzles/ChessPiece.java) interface.
-Then a chess board state may be represented via Spring Application Context, that contains beans of chess pieces.
+Consider each chess piece as a particular object that implements [ChessPiece](src/main/java/com/epam/rd/autotasks/chesspuzzles/ChessPiece.java) interface.
+Then a chessboard state may be represented via Spring Application Context, which contains beans of chess pieces.
 
 Your task is to construct Spring XML Configurations to create such Application Contexts.
 A configuration must provide beans of chess pieces.
-The testing code use them to create an instance of [ChessBoard](src/main/java/com/epam/rd/autotasks/chesspuzzles/ChessBoard.java), which must present chess board state as a String.
+The testing code uses them to create an instance of [ChessBoard](src/main/java/com/epam/rd/autotasks/chesspuzzles/ChessBoard.java), which must present the chessboard state as a String.
 Implementing this interface and its static method `of` is your responsibility as well.
 
 You need to provide the following configurations
@@ -20,7 +20,7 @@ You need to provide the following configurations
 - puzzle04.xml
 - puzzle05.xml
 
-You may refer to board states, presented in related text files in [src/test/resources/boards](src/test/resources/boards)
+You may refer to board states presented in related text files in [src/test/resources/boards](src/test/resources/boards)
 
 ### State String Symbols:
 
